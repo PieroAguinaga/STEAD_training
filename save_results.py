@@ -33,7 +33,6 @@ def save_results(experimento, itr, auc_train, auc_test, auc_test_l,auc_test_m, a
     return 0
 
 
-import pandas as pd
 import os
 import re
 
