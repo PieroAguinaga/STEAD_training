@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-
+import re
 def save_results(experimento, itr, auc_train, auc_test, auc_test_l,auc_test_m, auc_test_s):
     # Crear carpeta si no existe
     path = os.path.join("results")
