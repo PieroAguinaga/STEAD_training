@@ -1,0 +1,20 @@
+# 1) Instalar PyTorch + TorchVision + Torchaudio compilados con CUDA 12.9
+#pip install --index-url https://download.pytorch.org/whl/cu118 torch torchvision torchaudio --upgrade
+
+# 2) Instalar OpenCV para lectura y escritura de video
+opencv-python
+
+# 3) Instalar tqdm para la barra de progreso
+tqdm
+torch
+timm
+pandas
+performer_pytorch
+torchinfo
+scikit-learn
+matplotlib
+umap-learn
+pandas
+openpyxl
+pytorchvideo
+decord
