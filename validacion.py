@@ -101,7 +101,7 @@ def cargar_modelo_x3d(x3d_version: str, device, num_frames, stride):
     )
     return model_x3d, transform
 
-def procesar_video(video_path, anotaciones, num_frames, stride, device, transform, model_x3d, model_custom, batch_size=32):
+def procesar_video(video_path, anotaciones, num_frames, stride, device, transform, model_x3d, model_custom, batch_size=128):
     clip_frame_count = num_frames * stride
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
